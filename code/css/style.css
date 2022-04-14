@@ -105,7 +105,7 @@ nav>* {
    TELEPHONE
 /////////////*/
 
-@media screen and (max-width:412px) {
+@media screen and (max-device-width:412px) {
     h2 {
         margin-top: auto;
         margin-bottom: auto;
@@ -139,5 +139,10 @@ nav>* {
         padding-top: 15px;
         font-size: xx-small;
         text-align: center;
+    }
+
+    #chrono>ul {
+        padding: 0;
+        margin-left: 0;
     }
 }
