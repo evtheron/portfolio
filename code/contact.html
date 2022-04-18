@@ -14,17 +14,15 @@
         <a class="btn btn-info" href="contact.html" role="button">Me contacter</a>
     </header>
     <div class="formulaire">
-        <form method="post" action="mail.php">
+        <form action="http://formspree.io/evan.theron@free.fr" method="POST">
             <h2>
                 Formulaire de contact
             </h2>
-            <label>Objet de votre message</label>
-            <input type="text" name="subject" placeholder="Objet du message" required>
             <label>Votre adresse mail</label>
-            <input type="email" name="email" placeholder="exemple@xyz.com" required>
+            <input type="email" name="_replyto" placeholder="exemple@xyz.com" required>
             <label>Votre message</label>
-            <textarea name="message"></textarea>
-            <input type="submit" name="Envoyer">
+            <textarea   name="body" required></textarea>
+            <input type="submit" value="Send">
         </form>
     </div>
 </body>
