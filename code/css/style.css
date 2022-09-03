@@ -93,6 +93,13 @@ nav>* {
     text-align: justify;
 }
 
+/*/////////////////
+   DATES PROJETS
+/////////////////*/
+.projects>h1 {
+    margin: 1em;
+}
+
 /*///////////////
    EFFETS ZOOM
 ///////////////*/
