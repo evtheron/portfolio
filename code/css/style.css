@@ -87,7 +87,7 @@ nav>* {
     border-radius: 3em;
 }
 
-.projects>article>p {
+.projects>article>.projectinfo {
     width: 35vw;
     margin: auto;
     text-align: justify;
