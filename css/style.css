@@ -94,6 +94,62 @@ nav>* {
     font-size: larger;
 }
 
+/*////////////////////
+   TAGS COMPETENCES
+////////////////////*/
+
+.tag-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    gap: 1em;
+    font-weight: bold;
+}
+
+.tag {
+    border-radius: 0.2em;
+    outline-style: solid;
+    padding: 0.5%;
+}
+
+.tag.java {
+    background-color: gold;
+}
+
+.tag.csharp {
+    background-color: rgb(212, 30, 30);
+}
+
+.tag.sql {
+    background-color: rgb(0, 167, 0);
+}
+
+.tag.php {
+    background-color: rgb(153, 60, 240);
+}
+
+.tag.bash {
+    background-color: rgb(199, 199, 156);
+}
+
+.tag.c {
+    background-color: rgb(69, 69, 228);
+}
+
+.tag.python {
+    background-color: rgb(234, 91, 39);
+}
+
+.tag.htmlcss {
+    background-color: rgb(200, 53, 131);
+}
+
+.tag.processing {
+    background-color: whitesmoke;
+}
+
 /*/////////////////
    DATES PROJETS
 /////////////////*/
