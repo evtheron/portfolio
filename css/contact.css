@@ -24,6 +24,15 @@ header>h2>a {
     color: white;
 }
 
+header>h2>a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#lang>a {
+    color: lightblue;
+}
+
 form {
     display: flex;
     flex-direction: column;
