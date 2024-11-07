@@ -1,12 +1,14 @@
-body {
-    background-color: lightblue;
-}
-
 header {
     background-color: #315A74;
     display: flex;
     justify-content: space-evenly;
     height: 10vh;
+    align-items: center;
+}
+
+header>* {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -20,6 +22,10 @@ header>a {
     text-align: center;
 }
 
+#lang {
+    width: 3vw;
+}
+
 header>h2>a {
     color: white;
 }
@@ -29,7 +35,7 @@ header>h2>a:hover {
     text-decoration: none;
 }
 
-#lang>a {
+header>h4>a, header>h4>a:hover, #lang>a {
     color: lightblue;
 }
 
@@ -38,9 +44,9 @@ form {
     flex-direction: column;
     align-items: center;
     margin: auto;
+    margin-top: 3vh;
     width: 70vw;
     height: 70vh;
-    background-color: lightblue;
 }
 
 form h2 {
@@ -65,7 +71,7 @@ form label+input:invalid {
 }
 
 form label+input:valid {
-    border-right: solid 5px green;
+    border-right: solid 5px rgb(0, 210, 0);
 }
 
 input[type="submit"] {
@@ -79,6 +85,17 @@ input[type="radio"]+label {
 
 footer>p {
     text-align: center;
+}
+
+label {
+    margin-top: 3vh;
+}
+
+input, textarea {
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #315A74;
+    background-color: rgba(173, 216, 230, 0.600);
 }
 
 @media screen and (max-width:412px) {
