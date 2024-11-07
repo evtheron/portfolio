@@ -35,7 +35,7 @@ header>h2>a:hover {
     text-decoration: none;
 }
 
-header>h4>a, header>h4>a:hover, #lang>a {
+#contact-btn, #contact-btn:hover, #lang>a {
     color: lightblue;
 }
 
